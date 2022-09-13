@@ -1,6 +1,6 @@
 package objectsAndClass;
 
-public class Author {
+public class Author extends Object{
     private final String name;
     private final String surname;
 
@@ -14,6 +14,7 @@ public class Author {
     public String getSurname(){
         return surname;
     }
+    @Override
     public String toString(){
         return name + " " + surname;
     }

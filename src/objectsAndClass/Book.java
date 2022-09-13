@@ -22,8 +22,10 @@ public class Book {
     public void setPublicationYear(Integer publicationYear){
         this.publicationYear = publicationYear;
     }
+    @Override
     public String toString(){
         return "Книга \"" + name + "\" была опубликована в " + publicationYear +
                 " году. Автор " + author;
     }
+
 }
